@@ -28,13 +28,32 @@ img{
 }
 
 .grey{
-  background-color: lightgrey;
+  background-color: #f6f6f6;
 }
 
 .container{
   margin: 0 auto;
   max-width: 1250px;
   width: 99%;
+}
+
+.wave{
+  background: url(../img/wave.svg);
+  position: relative;
+  opacity: 0.03;
+  width: 100%;
+  height: 100px;
+  fill: #f6f6f6;
+}
+
+.wave-2{
+  background: url(../img/wave.svg);
+  position: relative;
+  transform: scaleY(-1);
+  opacity: 0.03;
+  width: 100%;
+  height: 100px;
+  fill: #f6f6f6;
 }
 
 
