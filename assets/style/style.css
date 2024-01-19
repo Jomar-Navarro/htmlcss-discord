@@ -71,6 +71,11 @@ img{
   border: none;
 }
 
+.accedi:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
 .jumbotron{
   justify-content: center;
   align-items: center;
@@ -119,13 +124,22 @@ img{
   background-color: #23272a;
 }
 
+.browser:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.mac:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
 
 /* header */
 
 /* main */
 main section{
   padding: 50px 0;
-  height: 900px;
+  height: 1000px;
 }
 
 main section .container{
@@ -134,19 +148,86 @@ main section .container{
 
 main section .container .box-img{
   width: 60%;
-  background-color: #1e90ff;
 }
 
 main section .container .box-text{
-  background-color: #ffc0cb;
   width: 40%;
 }
 
+.box-img{
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+.box-text{
+  flex-direction: column;
+  padding: 50px;
+}
+
+.box-text h2{
+  padding-top: 80px;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #23272a;
+}
+
+.box-text p{
+  padding-top: 25px;
+  color: #23272a;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+
 #tech .container{
   text-align: center;
+  align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  justify-content: center;
 }
+
+#tech .container h2{
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #23272a;
+}
+
+#txt-1{
+  width: 1050px;
+  padding-top: 25px;
+  color: #23272a;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#txt-2{
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  width: 1050px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  color: #23272a;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.mac-2{
+  background-color: #8ea1e1;
+  color: white;
+  border-radius: 30px;
+  font-size: 1.4rem;
+  border: none;
+  padding: 15px 30px;
+}
+
+.mac-2:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+
 
 /* footer */
 
