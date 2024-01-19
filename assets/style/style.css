@@ -331,3 +331,8 @@ footer .botm{
   background-color: #728adb;
   cursor: pointer;
 }
+
+.arrow{
+  display: inline-block;
+  font-size: 17px;
+}
