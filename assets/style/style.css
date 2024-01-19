@@ -166,6 +166,7 @@ main section .container .box-text{
 
 .box-text h2{
   padding-top: 80px;
+  padding-right: 20px;
   font-size: 2.6rem;
   font-weight: 800;
   color: #23272a;
@@ -174,7 +175,7 @@ main section .container .box-text{
 .box-text p{
   padding-top: 25px;
   color: #23272a;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -227,18 +228,20 @@ main section .container .box-text{
   background-color: grey;
   cursor: pointer;
 }
+/* /main */
 
 
 /* footer */
 
 footer{
   padding-top: 80px;
-  background-color: #1e90ff;
+  background-color: #23272a;
   color: white;
 }
 
 footer .sopra{
-  height: 600px;
+  height: 420px;
+  border-bottom: 2px solid #8ea1e1;
 }
 
 footer .sopra .container{
@@ -264,3 +267,48 @@ footer .botm{
   justify-content: space-between;
 }
 
+.social{
+  flex-direction: column;
+}
+
+.social h2{
+  color: #728adb;
+}
+
+.social img{
+  width: 30px;
+  height: auto;
+}
+
+.social p{
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.last-menu nav ul li{
+  padding-top: 15px;
+}
+
+.last-menu nav span{
+  font-weight: 600;
+  color: #728adb;
+}
+
+.socials-logo i{
+  padding: 0 10px;
+}
+
+.register{
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  color: white;
+  background-color: #8ea1e1;
+}
+
+.register:hover{
+  background-color: #728adb;
+  cursor: pointer;
+}
